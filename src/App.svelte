@@ -3,7 +3,7 @@
   import Nav from './lib/Nav.svelte';
 import Hero from './lib/Hero.svelte';
 import Team from './lib/Project.svelte';
-import Services from './lib/Services.svelte';
+import Services from './lib/services.svelte';
 import Footer from './lib/Footer.svelte';
 
 </script>
