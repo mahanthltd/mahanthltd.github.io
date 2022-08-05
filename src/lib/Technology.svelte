@@ -252,7 +252,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
         <div class="w-12 h-12 lg:w-14 lg:h-14">
           <img
             class="object-contain h-full"
-            src="hhttps://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/kotlin.svg"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/kotlin.svg"
             alt="Slack"
           />
         </div>
