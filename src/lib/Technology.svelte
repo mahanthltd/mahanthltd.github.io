@@ -3,11 +3,11 @@
 >
 
 <div
-  class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,#FFFFFF_48.73%)] py-10 px-5 shadow-lg sm:mx-0 sm:rounded-3xl sm:px-10"
+class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,#FFFFFF_48.73%)] py-10 px-5 shadow-lg sm:mx-0 sm:rounded-3xl sm:px-10"
 >
-  <div
-    class="px-10 py-4 mt-4 md:py-10 border-b border-0 dark:border-solid-darkLighterBg md:border-r lg:border-b-0 lg:ml-4 lg:mt-0 last:border-none"
-  >
+<div
+class="px-10 py-4 mt-4 md:py-10 border-b border-0 dark:border-solid-darkLighterBg md:border-r lg:border-b-0 lg:ml-4 lg:mt-0 last:border-none"
+>
     <h3 class="text-xl mb-2 font-semibold">Innovation</h3>
     <p class="text-base">
       We are able to guide customers on their path to technology modernization
@@ -124,7 +124,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/javascript.svg"
-            alt="MySQL"
+            alt="javascript"
           />
         </div>
       </div>
@@ -136,7 +136,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/android.svg"
-            alt="Pgsql"
+            alt="android"
           />
         </div>
       </div>
@@ -147,7 +147,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="relative object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/apachekafka.svg"
-            alt="MongoDB"
+            alt="apachekafka"
           />
         </div>
       </div>
@@ -162,7 +162,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/kubernetes.svg"
-            alt="Azure"
+            alt="kubernetes"
           />
         </div>
       </div>
@@ -173,7 +173,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/azuredevops.svg"
-            alt="Dropbox"
+            alt="azuredevops"
           />
         </div>
       </div>
@@ -184,7 +184,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/amazonaws.svg"
-            alt="FTP"
+            alt="amazonaws"
           />
         </div>
       </div>
@@ -195,7 +195,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/elastic.svg"
-            alt="AWS S3"
+            alt="elastic"
           />
         </div>
       </div>
@@ -206,7 +206,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/prometheus.svg"
-            alt="DO Spaces"
+            alt="prometheus"
           />
         </div>
       </div>
@@ -220,7 +220,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg"
-            alt="Twitter"
+            alt="react"
           />
         </div>
       </div>
@@ -231,7 +231,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/angularjs.svg"
-            alt="Google Calendar"
+            alt="angularjs"
           />
         </div>
       </div>
@@ -242,7 +242,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/python.svg"
-            alt="Telegram"
+            alt="python"
           />
         </div>
       </div>
@@ -253,7 +253,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/kotlin.svg"
-            alt="Slack"
+            alt="kotlin"
           />
         </div>
       </div>
@@ -264,7 +264,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="relative object-contain h-full left-2"
             src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/java.svg"
-            alt="google-sheets"
+            alt="java"
           />
         </div>
       </div>
@@ -279,7 +279,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="object-contain h-full"
             src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/googlecloud.svg"
-            alt="Twilio"
+            alt="googlecloud"
           />
         </div>
       </div>
@@ -290,7 +290,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
           <img
             class="relative object-contain h-full left-1"
             src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/svelte.svg"
-            alt="XML"
+            alt="svelte"
           />
         </div>
       </div>
@@ -300,8 +300,8 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
         <div class="w-10 h-10 lg:w-14 lg:h-14">
           <img
             class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/splunk.svg"
-            alt="airtable"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/node-dot-js.svg"
+            alt="node-dot-js"
           />
         </div>
       </div>
