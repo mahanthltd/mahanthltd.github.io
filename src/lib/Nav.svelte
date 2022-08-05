@@ -2,7 +2,7 @@
   let menus = [
     {id: 'Team', name: '/team'},
     {id: 'Projects', name: '/projects'},
-    {id: 'Reports', name: '/reports'}
+    {id: 'Blog', name: '/reports'}
   ];
 </script>
 

@@ -7,7 +7,7 @@
       We hire smart people so they can tell us what to do.
     </h1>
     <!-- svelte-ignore a11y-structure -->
-    <figcaption class="relative font-medium ">
+    <figcaption class="float-right font-medium ">
       <div class="text-sky-500 dark:text-sky-400">Steve Jobs</div>
       <div class="text-slate-700 dark:text-slate-500">
         American entrepreneur

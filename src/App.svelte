@@ -5,6 +5,9 @@
   import Team from './lib/Project.svelte';
   import Services from './lib/services.svelte';
   import Footer from './lib/Footer.svelte';
+  import Technology from './lib/Technology.svelte';
+  import Programming from './lib/Programming.svelte';
+
 </script>
 
 <TailwindCss />
@@ -14,6 +17,8 @@
   <Nav />
   <Hero />
   <Services />
+  <Programming/>
+  <Technology/>
   <Team />
   <Footer />
 </main>
