@@ -3,7 +3,7 @@
   import Nav from './lib/Nav.svelte';
   import Hero from './lib/Hero.svelte';
   import Project from './lib/Project.svelte';
-  import Services from './lib/services.svelte';
+  import Services from './lib/Services.svelte';
   import Footer from './lib/Footer.svelte';
   import Technology from './lib/Technology.svelte';
   import DigitalTransformation from './lib/DigitalTransformation.svelte';
