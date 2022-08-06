@@ -1,7 +1,7 @@
 <script>
   let menus = [
+    {id: 'Our Services', name: '#services'},
     {id: 'Digital Transformation', name: '#digital-transformation'},
-    {id: 'Services', name: '#services'},
     {id: 'Technology', name: '#technology'},
     {id: 'Projects', name: '#project'},
     {id: 'Blog', name: '#blog'},
@@ -17,7 +17,7 @@
 </script>
 
 <div
-  class="relative flex items-center justify-between pt-6 text-sm font-semibold leading-6 lg:pt-8 text-slate-700 dark:text-slate-200"
+  class="relative pr-8 flex items-center justify-between pt-6 text-sm font-semibold leading-6 lg:pt-8 text-slate-700 dark:text-slate-200"
 >
   <svg viewBox="0 0 248 31" class="w-auto h-5 text-slate-900 dark:text-white" />
   <div class="flex items-center">
