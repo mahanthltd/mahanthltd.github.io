@@ -2,11 +2,11 @@
   import TailwindCss from './TailwindCSS.svelte';
   import Nav from './lib/Nav.svelte';
   import Hero from './lib/Hero.svelte';
-  import Team from './lib/Project.svelte';
+  import Project from './lib/Project.svelte';
   import Services from './lib/services.svelte';
   import Footer from './lib/Footer.svelte';
   import Technology from './lib/Technology.svelte';
-  import Programming from './lib/Programming.svelte';
+  import DigitalTransformation from './lib/DigitalTransformation.svelte';
 </script>
 
 <TailwindCss />
@@ -16,8 +16,8 @@
   <Nav />
   <Hero />
   <Services />
-  <Programming />
+  <DigitalTransformation />
   <Technology />
-  <Team />
+  <Project />
   <Footer />
 </main>

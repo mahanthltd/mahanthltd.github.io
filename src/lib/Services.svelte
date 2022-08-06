@@ -1,5 +1,5 @@
 <div class="relative max-w-5xl pt-20 mx-auto sm:pt-24 lg:pt-32">
-  <section class="px-12 text-center">
+  <section id="services" class="px-12 text-center">
     <h2
       class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl dark:text-white"
     >

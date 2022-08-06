@@ -1,9 +1,19 @@
 <script>
   let menus = [
-    {id: 'Team', name: '/team'},
-    {id: 'Projects', name: '/projects'},
-    {id: 'Blog', name: '/blog'}
+    {id: 'DigitalTransformation', name: '#digital-transformation'},
+    {id: 'Services', name: '#services'},
+    {id: 'Technology', name: '#technology'},
+    {id: 'Projects', name: '#project'},
+    {id: 'Blog', name: '#blog'},
+    {id: 'Team', name: '#team'}
   ];
+  function scrollIntoView({target}) {
+    const el = document.querySelector(target.getAttribute('href'));
+    if (!el) return;
+    el.scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
 </script>
 
 <div
@@ -16,8 +26,10 @@
         <ul class="flex items-center space-x-8">
           {#each menus as { name, id }}
             <li>
-              <a class="hover:text-sky-500 dark:hover:text-sky-400" href={name}
-                >{id}</a
+              <a
+                class="hover:text-sky-500 dark:hover:text-sky-400"
+                on:click|preventDefault={scrollIntoView}
+                href={name}>{id}</a
               >
             </li>
           {/each}
