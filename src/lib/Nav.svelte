@@ -1,6 +1,6 @@
 <script>
   let menus = [
-    {id: 'DigitalTransformation', name: '#digital-transformation'},
+    {id: 'Digital Transformation', name: '#digital-transformation'},
     {id: 'Services', name: '#services'},
     {id: 'Technology', name: '#technology'},
     {id: 'Projects', name: '#project'},
