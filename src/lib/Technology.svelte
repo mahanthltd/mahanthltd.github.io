@@ -100,7 +100,7 @@ class="relative z-10 -mx-4 bg-[radial-gradient(164.75%_40%_at_30%_0%,#87CEFA_0%,
   <div
     class="px-10 py-4 2xl:bg-opacity-0 bg-opacity-80 rounded-lg xl:bg-opacity-0"
   >
-    <p class="text-base font-semibold leading-6 text-indigo-500 uppercase">
+    <p class="text-base font-semibold leading-6 text-sky-500 dark:text-sky-400 uppercase">
       Technical Expertise
     </p>
 

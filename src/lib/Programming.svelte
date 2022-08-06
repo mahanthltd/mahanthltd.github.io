@@ -6,7 +6,7 @@
       class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center"
     >
       <div class="ml-auto lg:mr-6 lg:max-w-2xl">
-        <p class="text-base font-semibold leading-6 text-indigo-500 uppercase">
+        <p class="text-base font-semibold leading-6 text-sky-500 dark:text-sky-400 uppercase">
           Digital Transformation
         </p>
         <h4
