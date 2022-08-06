@@ -7,7 +7,6 @@
   import Footer from './lib/Footer.svelte';
   import Technology from './lib/Technology.svelte';
   import Programming from './lib/Programming.svelte';
-
 </script>
 
 <TailwindCss />
@@ -17,10 +16,8 @@
   <Nav />
   <Hero />
   <Services />
-  <Programming/>
-  <Technology/>
+  <Programming />
+  <Technology />
   <Team />
   <Footer />
-
-  
 </main>

@@ -2,7 +2,7 @@
   let menus = [
     {id: 'Team', name: '/team'},
     {id: 'Projects', name: '/projects'},
-    {id: 'Blog', name: '/reports'}
+    {id: 'Blog', name: '/blog'}
   ];
 </script>
 
@@ -14,11 +14,10 @@
     <div class="items-center hidden md:flex">
       <nav>
         <ul class="flex items-center space-x-8">
-          {#each menus as menu}
+          {#each menus as { name, id }}
             <li>
-              <a
-                class="hover:text-sky-500 dark:hover:text-sky-400"
-                href={menu.name}>{menu.id}</a
+              <a class="hover:text-sky-500 dark:hover:text-sky-400" href={name}
+                >{id}</a
               >
             </li>
           {/each}
