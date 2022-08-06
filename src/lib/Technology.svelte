@@ -32,15 +32,43 @@
     }
   ];
 
-  const icons = [
-    [null,
-    {src: "", alt:""},
-    {src: "", alt:""},
-    {src: "", alt:""},
-    {src: "", alt:""},
+  const iconGroups = [
+    [
+      null,
+      {src: 'javascript'},
+      {src: 'python'},
+      {src: 'node-dot-js'},
+      {src: 'java'},
+      null
+    ],
 
-   ]
-  ]
+    [
+      {src: 'react'},
+      {src: 'angularjs'},
+      {src: 'svelte'},
+      {src: 'next-dot-js'},
+      {src: 'nestjs'},
+      {src: 'spring'}
+    ],
+    [
+      {src: 'amazonaws'},
+      {src: 'azuredevops'},
+      {src: 'googlecloud'},
+      {src: 'kubernetes'},
+      {src: 'docker'},
+      {src: 'terraform'}
+    ],
+    [
+      null,
+      {src: 'apachekafka'},
+      {src: 'rabbitmq'},
+      {src: 'elastic'},
+      {src: 'kibana'},
+      null
+    ]
+  ];
+
+  const cdnUrl = 'https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/';
 </script>
 
 <section
@@ -83,272 +111,26 @@
     </p>
   </div>
   <div class="relative mt-10 space-y-6 relative-20 lg:mt-0">
-    <div class="grid grid-cols-5">
-      <div>&nbsp;</div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-16 lg:h-16">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/javascript.svg"
-            alt="javascript"
-          />
-        </div>
+    {#each iconGroups as iconGroup}
+      <div class="grid grid-cols-6">
+        {#each iconGroup as icon}
+          {#if icon}
+            <div
+              class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
+            >
+              <div class="w-12 h-12 lg:w-16 lg:h-16">
+                <img
+                  class="object-contain h-full"
+                  src={cdnUrl + icon.src + '.svg'}
+                  alt={icon.src}
+                />
+              </div>
+            </div>
+          {:else}
+            <div>&nbsp;</div>
+          {/if}
+        {/each}
       </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 lg:w-20 lg:h-20 rounded-2xl"
-        style="background-color: #336791"
-      >
-        <div class="w-12 h-12 lg:w-16 lg:h-16">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/android.svg"
-            alt="android"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-16 lg:h-16">
-          <img
-            class="relative object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/apachekafka.svg"
-            alt="apachekafka"
-          />
-        </div>
-      </div>
-      <div>&nbsp;</div>
-    </div>
-
-    <div class="grid grid-cols-5">
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-14 lg:h-14">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/kubernetes.svg"
-            alt="kubernetes"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-16 lg:h-16">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/azuredevops.svg"
-            alt="azuredevops"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-16 lg:h-16">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/amazonaws.svg"
-            alt="amazonaws"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-16 lg:h-16">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/elastic.svg"
-            alt="elastic"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-14 lg:h-14">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/prometheus.svg"
-            alt="prometheus"
-          />
-        </div>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-5">
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-14 lg:h-14">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg"
-            alt="react"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-14 lg:h-14">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/angularjs.svg"
-            alt="angularjs"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-16 lg:h-16">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/python.svg"
-            alt="python"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-14 lg:h-14">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/kotlin.svg"
-            alt="kotlin"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-14 lg:h-14">
-          <img
-            class="relative object-contain h-full left-2"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/java.svg"
-            alt="java"
-          />
-        </div>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-5">
-      <div>&nbsp;</div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-16 lg:h-16">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/googlecloud.svg"
-            alt="googlecloud"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-12 h-12 lg:w-16 lg:h-16">
-          <img
-            class="relative object-contain h-full left-1"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/svelte.svg"
-            alt="svelte"
-          />
-        </div>
-      </div>
-      <div
-        class="flex items-center justify-center w-16 h-16 bg-gray-100 lg:w-20 lg:h-20 rounded-2xl"
-      >
-        <div class="w-10 h-10 lg:w-14 lg:h-14">
-          <img
-            class="object-contain h-full"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/node-dot-js.svg"
-            alt="node-dot-js"
-          />
-        </div>
-      </div>
-      <div>&nbsp;</div>
-    </div>
+    {/each}
   </div>
 </section>
-<!-- 
-<section
-  class="dark:bg-solid-darkLighterBg bg-solid-lightgray rounded-3xl grid md:grid-cols-2 py-20 px-10 lg:px-20 md:space-x-12"
->
-  <div class="gridflex flex-wrap content-center">
-    <h2 class="text-2xl font-semibold">
-      <img
-        class="w-10 mb-5 block dark:invert"
-        alt=""
-        src="/assets/flag.54aa6e79.svg"
-      />Fully loaded with all features.
-    </h2>
-    <p class="text-xl mt-4">
-      Solid supports all common and expected library features and expands on
-      aspects to increase DX.
-    </p>
-  </div>
-  <ul class="flex flex-wrap">
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">Fragments</span>
-    </li>
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">Portals</span>
-    </li>
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">Context</span>
-    </li>
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">Suspense</span>
-    </li>
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">Error Boundaries</span>
-    </li>
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">Lazy Components</span>
-    </li>
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">Async &amp; Concurrent Rendering</span>
-    </li>
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">Implicit Delegation</span>
-    </li>
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">SSR &amp; Hydration</span>
-    </li>
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">Directives</span>
-    </li>
-    <li
-      class="feature-block border-gray-300 dark:border-gray-700 w-full md:w-auto mr-3 mt-3 px-5 py-3"
-    >
-      <span class="block text-sm">Streaming</span>
-    </li>
-  </ul>
-</section> -->
