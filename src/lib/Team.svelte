@@ -75,7 +75,7 @@ Team
           class="text-sm text-gray-500 transition hover:text-gray-600"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/durairajsubramaniam"
+          href="https://www.linkedin.com/in/durairajsubramaniam/"
           ><span class="sr-only">linkedin</span><svg
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
