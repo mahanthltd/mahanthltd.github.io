@@ -4,38 +4,39 @@
       null,
       {src: 'javascript'},
       {src: 'python'},
-      {src: 'node-dot-js'},
+      {src: 'nodejs'},
       {src: 'java'},
       null
     ],
 
     [
-      {src: 'react'},
-      {src: 'angularjs'},
-      {src: 'svelte'},
-      {src: 'next-dot-js'},
+      {src: 'golang'},
+      {src: 'reactjs'},
+      {src: 'angular'},
+      {src: 'graphql'},
       {src: 'nestjs'},
-      {src: 'spring'}
+      {src: 'springio'}
     ],
+    
     [
-      {src: 'amazonaws'},
-      {src: 'azuredevops'},
-      {src: 'googlecloud'},
+      {src: 'amazon_aws'},
+      {src: 'microsoft_azure'},
+      {src: 'google_cloud'},
       {src: 'kubernetes'},
       {src: 'docker'},
-      {src: 'terraform'}
+      {src: 'terraformio'}
     ],
     [
       null,
-      {src: 'apachekafka'},
+      {src: 'apache_kafka'},
       {src: 'rabbitmq'},
       {src: 'elastic'},
-      {src: 'kibana'},
+      {src: 'elasticco_kibana'},
       null
     ]
   ];
 
-  const cdnUrl = 'https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/';
+  const cdnUrl = 'https://www.vectorlogo.zone/logos'
 </script>
 
 <section
@@ -72,7 +73,7 @@
               <div class="w-12 h-12 lg:w-16 lg:h-16">
                 <img
                   class="object-contain h-full"
-                  src={cdnUrl + icon.src + '.svg'}
+                  src={`${cdnUrl}/${icon.src}/${icon.src}-icon.svg`}
                   alt={icon.src}
                 />
               </div>
