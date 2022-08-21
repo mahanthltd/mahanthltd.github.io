@@ -7,6 +7,8 @@
   import Footer from './lib/Footer.svelte';
   import Technology from './lib/Technology.svelte';
   import DigitalTransformation from './lib/DigitalTransformation.svelte';
+  import Team from './lib/Team.svelte';
+
 </script>
 
 <TailwindCss />
@@ -19,5 +21,6 @@
   <DigitalTransformation />
   <Technology />
   <Project />
+  <Team />
   <Footer />
 </main>
